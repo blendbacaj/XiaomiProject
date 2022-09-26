@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order</title>
+</head>
+<body>
+    <center><h2>Thank You for ordering at us</h2></center>
+    <table border="0"  align="center" width="1050" >
+        <tr><td align="left" >
+            <form>
+                <fieldset>
+                    <legend> <b>Personal info</b> </legend>
+                <label for="username">  Write your username:</label>
+                <input type="text" name="username" id="username" placeholder="username" required > <br><br>
+                <label for="password">  Write your password:</label>
+                <input type="password" name="password" id="password" required  > <br> <br>
+                <label for="email">Write your email:</label>
+                <input type="email" name="email" id="email" placeholder="@gmail.com" > <br><br>
+                <label for="tel">Write your phone number:</label>
+                <input type="tel" name="telnumber" id="telnumber" placeholder="+00" > <br><br>
+                <label for="text">Write your adress:</label>
+                <input type="text" id="adress" name="adress" placeholder="Adress of your home" required ><br><br>
+                <label for="number">Write your zip:</label>
+                <input type="number" id="zip" name="zip" minlength="0" maxlength="5" required >
+                </fieldset>
+                <fieldset>
+                    <legend> <b>Product Info</b> </legend>
+                    <label for="">Choose memory of the phone:</label>
+                    <input list="types" required >
+                <datalist id="types">
+                    <option value="256 GB">256 GB</option>
+                    <option value="512 GB">512 GB</option>
+                    
+            
+                </datalist> <br><br>
+                <label for="colors">Choose the color:</label>
+                    <input list="colors" required >
+                <datalist id="colors">
+                    <option value="Grey">Grey</option>
+                    <option value="Black">Black</option>
+                    
+            
+                </datalist><br><br>
+                <label for="number">Write your quantity of product:</label>
+                <input type="number" id="number" name="number"  min="0" max="5" required > <br><br>
+                
+                <label for="check">Checkbox:</label> <br>
+                <textarea name="check" id="check" cols="30" rows="10"></textarea> <br><br> <hr>
+                <input type="submit" value="ok"> 
+                <input type="reset" value="reset" >
+
+                </fieldset>
+                <td>
+                    <img src="../tools/12s.png" alt="12s" width="600" >
+                </td>
+
+
+            </form>
+        </td></tr>
+            
+    </table>
+    
+</body>
+</html>
