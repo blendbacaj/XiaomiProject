@@ -1,0 +1,35 @@
+html{
+    background-color:mintcream;
+
+}
+.first
+{
+    border: solid goldenrod 7px;
+    border-radius: 25px;
+    box-shadow: 3px 54px 79px 39px rgba(0,0,0,0.14);
+    margin-right: 25px;
+    
+}
+.GFG{
+    border: solid 3px goldenrod;
+    background-color: black;
+    color: goldenrod;
+    border-radius: 45px;
+}
+.ops{
+    background-color: black;
+    color: goldenrod;
+    border: solid gold 3px ;
+    border-radius: 35px;
+
+}
+.field{
+    background-color: rgb(238, 195, 116);
+    color: black;
+}
+.title{
+    border: double goldenrod 5px;
+    border-radius: 35px;
+    background-color: black;
+    color: goldenrod;
+}

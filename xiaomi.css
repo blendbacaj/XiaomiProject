@@ -1,9 +1,114 @@
+html{
+    background-color: rgb(209, 94, 55);
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-image: url("./tools/763849.jpg")  ;
+    background-repeat: no-repeat;
+    background-size: 1600px 810px;
+    
+
+
+}
 body{
-    background-color: azure;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    
+
+}
+.banner{
+    box-shadow: 13px 18px 56px 9px rgba(0,0,0,0.74);
+    margin-bottom: 15px;
+    border: 1px solid white;
+    border-radius: 55px;
+   
+}
+ul {
+    display: flex;
+    background-color: rgb(29, 29, 29);
+    text-decoration: none;
+    margin-top: 0px;
+    box-shadow: -19px 37px 124px 43px rgba(80, 80, 80, 0.24);
     
 }
-html{
-    color: maroon;
+li a{
+    float: left;
+    display: block;
+    color: white;
+    padding: 10px 25px;
+    text-decoration: none;
+    min-width: 60px;
+    border-right: 1px solid whitesmoke;
+    border-radius: 15px;
+    
+    
+    
+    
+}
+li{
+    list-style-type: none;
+    
+}
+li a:hover{
+    background-color:whitesmoke;
+    color: black;
+}
+.first{
+    border: 7px double rgba(240,240,240,0.74);
+    background-color: black;
+    color: rgb(248, 155, 48); 
+    border-radius: 15px;
+    box-shadow: 3px 54px 79px 39px rgba(0,0,0,0.74);
+    
+    
+}
+.ow{
+    background-color:black;
+    color:rgb(248, 155, 48); 
+    border: 5px solid black;
+    border-radius: 50px;
+    margin-top: 130px;
+    
+}
+.ow a{
+    color: white;
+}
+.ow a:hover{
+    background-color:  white;
+    color: black;
+}
+.border2{
+
 }
 
+.tableb{
+    background-color: black;
+    color: rgb(244, 196, 142);
+    
 
+    
+
+}
+.tableb a{
+    color: white;
+    box-shadow: 3px 54px 79px 39px rgba(0,0,0,0.74);
+}
+table a:hover{
+    background-color: whitesmoke;
+    color: black;
+}
+.border{
+    border: solid rgb(113, 113, 113) 3px;
+    border-radius: 35px;
+    min-width: 320px;
+}
+.box{
+    box-shadow: 3px 54px 79px 39px rgba(0,0,0,0.74);
+    
+}
+.nav{
+    position: sticky;
+    top: 0px;
+    
+}
